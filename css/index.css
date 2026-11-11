@@ -40,6 +40,12 @@ li {
     width: 100%;
 }
 
+.error{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1000%;
+}
 
 
 body {
