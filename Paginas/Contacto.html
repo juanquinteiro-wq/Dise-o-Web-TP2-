@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/index.css" />
+    <link rel="icon" type="image/png" href="../favicon.png" />
   </head>
   <body>
     <header>
@@ -30,6 +31,25 @@
     <main>
       <h1>Seguinos en la tierra media</h1>
       <h3>Warner Bros. Entertainment</h3>
+      <form action="confirmacion.html" method="get">
+        <fieldset>
+          <legend>Datos personales</legend>
+
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <input type="submit" value="Enviar" />
+        </fieldset>
+      </form>
     </main>
 
     <footer>

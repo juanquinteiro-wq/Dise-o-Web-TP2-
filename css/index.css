@@ -101,3 +101,33 @@ h3 {
 li {
   color: rgb(168, 106, 36);
 }
+
+
+/*Formulario css*/
+
+
+
+
+fieldset {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
