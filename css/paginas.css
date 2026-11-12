@@ -1,0 +1,88 @@
+.seccion-1 {
+  margin-bottom: 42px;
+}
+
+.seccion-1 > p {
+  max-width: 800px;
+}
+
+.tarjeta-reparto {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin: 0;
+  padding: 20px;
+  background-color: #ead9b8;
+}
+
+.tarjeta-reparto img {
+  display: block;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 16px;
+  object-fit: cover;
+}
+
+.tarjeta-reparto img:hover {
+  opacity: 0.8;
+}
+
+.tarjeta-reparto h3 {
+  text-align: center;
+}
+
+.formulario-contacto {
+  width: 680px;
+  margin: 32px 0;
+}
+
+.formulario-contacto fieldset {
+  padding: 20px;
+  border: 1px solid #806c48;
+}
+
+.formulario-contacto label {
+  display: block;
+  margin-top: 16px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #806c48;
+  font: inherit;
+}
+
+.formulario-contacto textarea {
+  height: 140px;
+  resize: vertical;
+}
+
+.formulario-contacto input[type="submit"] {
+  width: 120px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 0;
+  background-color: #29251d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.formulario-contacto input[type="submit"]:hover {
+  background-color: #740000;
+}
+
+.lista-redes {
+  padding-left: 20px;
+}
+
+.confirmacion {
+  text-align: center;
+}
+
+.confirmacion a {
+  color: #740000;
+}

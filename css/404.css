@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1cb9e;
+  text-align: center;
+}
+
+.pagina-error h1 {
+  margin: 0;
+  color: #29251d;
+  font-size: 180px;
+}
+
+.pagina-error h2 {
+  margin: 0 0 8px;
+}
+
+.pagina-error h3 {
+  margin: 0;
+  color: #29251d;
+}

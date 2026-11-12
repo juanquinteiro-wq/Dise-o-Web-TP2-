@@ -1,24 +1,24 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>El señor de los anillos</title>
+    <link rel="stylesheet" href="./css/comun.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
   </head>
   <body>
     <header>
       <nav>
-        <img
-          class="anillo"
-          href="./index.html"
-          src="./imagenes/One-Ring-PNG-Images.png"
-          width="5%"
-          alt="Anillo de sauron"
-        />
-
-        <ul>
+        <a class="enlace-inicio" href="./index.html" aria-label="Ir al inicio">
+          <img
+            class="logo-anillo"
+            src="./imagenes/One-Ring-PNG-Images.png"
+            alt="Anillo de Sauron"
+          />
+        </a>
+        <ul class="menu-principal">
           <li><a href="./Paginas/Reparto.html">Reparto</a></li>
           <li><a href="./Paginas/Desarrollo.html">Desarrollo</a></li>
           <li><a href="./Paginas/Destacados.html">Destacados</a></li>
@@ -30,17 +30,16 @@
     <main>
       <section>
         <img
+          class="logo-titulo"
           src="./imagenes/lord-of-the-rings-png-logo-6406.png"
           alt="The lord of the rings"
         />
 
         <h2>Introducción</h2>
         <iframe
-          width="560"
-          height="315"
+          class="video-introduccion"
           src="https://www.youtube.com/embed/PqkCmkSQfOA?si=fyWoKGfiQAsrB-kh"
           title="YouTube video player"
-          frameborder="0"
           allow="
             accelerometer;
             autoplay;
@@ -55,7 +54,7 @@
         ></iframe>
 
         <article>
-          <p class="p1">
+          <p class="texto">
             El Señor de los Anillos es una trilogía cinematográfica dirigida por
             Peter Jackson, basada en la obra literaria de J. R. R. Tolkien. La
             historia transcurre en la Tierra Media y sigue a Frodo Bolsón, un
@@ -63,13 +62,13 @@
             Único, un poderoso objeto que podría devolverle al oscuro señor
             Sauron el control sobre el mundo.
           </p>
-          <p class="p1">
+          <p class="texto">
             A lo largo de las tres películas —The fellowship of the ring, The
             two towers y The return of the king— se desarrolla una aventura
             épica marcada por batallas, viajes, alianzas y conflictos entre
             distintos pueblos de la Tierra Media.
           </p>
-          <p class="p1">
+          <p class="texto">
             La trilogía combina principalmente fantasía épica, aventura, acción
             y drama, con elementos de amistad, heroísmo, sacrificio y lucha
             entre el bien y el mal. Se caracteriza por su gran escala visual,
@@ -81,8 +80,8 @@
       </section>
 
       <section>
-        <h2 class="p2">The fellowship of the ring - 2001</h2>
-        <div class="index">
+        <h2>The fellowship of the ring - 2001</h2>
+        <div class="ficha-pelicula">
           <img
             src="./imagenes/La comunidad del anillo.jpg"
             width="10%"
@@ -90,12 +89,12 @@
           />
 
           <div>
-            <p class="p1">
+            <p class="texto">
               El comienzo de una aventura épica que llevará a un pequeño hobbit
               a enfrentarse a una amenaza capaz de destruir toda la Tierra
               Media.
             </p>
-            <p class="p1">
+            <p class="texto">
               Frodo Bolsón hereda el Anillo Único, un objeto de enorme poder que
               pertenece al oscuro señor Sauron. Junto a un grupo de compañeros,
               emprende un peligroso viaje hacia Mordor para destruirlo antes de
@@ -106,20 +105,20 @@
       </section>
 
       <section>
-        <h2 class="p2">The two towers - 2002</h2>
-        <div class="index">
+        <h2>The two towers - 2002</h2>
+        <div class="ficha-pelicula">
           <img
             src="./imagenes/Las dos torres.jpg"
             width="30%"
             alt="The two towers"
           />
           <figure>
-            <p class="p1">
+            <p class="texto">
               La comunidad se encuentra dividida y la amenaza de Sauron crece
               mientras los pueblos libres de la Tierra Media se preparan para la
               guerra.
             </p>
-            <p class="p1">
+            <p class="texto">
               Frodo y Sam continúan su camino hacia Mordor acompañados por
               Gollum, mientras Aragorn, Legolas y Gimli buscan reencontrarse con
               sus compañeros y ayudar a los habitantes de Rohan. La batalla por
@@ -130,8 +129,8 @@
       </section>
 
       <section>
-        <h2 class="p2">The return of the king - 2003</h2>
-        <div class="index">
+        <h2>The return of the king - 2003</h2>
+        <div class="ficha-pelicula">
           <img
             src="./imagenes/El retorno del rey.jpg"
             width="30%"
@@ -139,12 +138,12 @@
           />
 
           <figure>
-            <p class="p1">
+            <p class="texto">
               El capítulo final de la trilogía lleva la historia hacia su
               enfrentamiento definitivo entre las fuerzas del bien y el ejército
               de Sauron.
             </p>
-            <p class="p1">
+            <p class="texto">
               Mientras Aragorn asume su destino y reúne a los pueblos de la
               Tierra Media para enfrentar a Sauron, Frodo y Sam se acercan cada
               vez más al corazón de Mordor. El destino del Anillo y de toda la
